@@ -9,24 +9,22 @@ function App() {
   const dummyData = [
     {
       amount: 100,
-      account: "Bulder bruk",
+      account: "Test1",
       date: new Date().toDateString(),
       key: 0
     },
     {
       amount: 200,
-      account: "Totens",
+      account: "Test2",
       date: new Date().toDateString(),
       key: 1
     }
   ];
 
   const dummyAccounts = [
-    "Bulder",
-    "Totens",
-    "Fundingpartner",
-    "Kron",
-    "Nordnet"
+    "Test1",
+    "Test2",
+    "Test3"
   ];
 
   const [transactions, setTransactions] = useState(dummyData);
